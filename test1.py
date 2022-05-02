@@ -3,7 +3,8 @@ from rpy2 import robjects
 import streamlit as st
 from rpy2.robjects.conversion import Converter
 import numpy
-
+os.environ['R_HOME'] = r"C:\Program Files\R\R-4.1.3"
+#os.environ['R_USER'] = r"C:\Python39\Lib\site-packages\rpy2"
 
 def main():
 
